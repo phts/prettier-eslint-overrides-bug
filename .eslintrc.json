@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "dot-notation": "error"
+  },
+
+  "overrides": [
+    {
+      "files": "src/myFile.js", // does NOT work
+      // "files": "**/src/myFile.js", // works!
+      "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+      },
+      "env": { "es6": true }
+    }
+  ]
+}

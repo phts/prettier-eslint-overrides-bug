@@ -1,0 +1,12 @@
+{
+  "name": "prettier-eslint-overrides-bug",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "format": "prettier-eslint -l debug --write **/*.js"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "prettier-eslint-cli": "^5.0.0"
+  }
+}
